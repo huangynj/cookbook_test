@@ -25,4 +25,3 @@ jobs:
     uses: ProjectPythia/cookbook-actions/.github/workflows/deploy-book.yaml@main
 
 
-  name: publish-book
