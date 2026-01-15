@@ -22,6 +22,7 @@ project:
         repo: huangynj/cookbook_test
 site:
   template: book-theme
+  base_url: /cookbook_test
   options:
     favicon: thumbnails/cops_logo.png
     logo: thumbnails/cops_logo.png
