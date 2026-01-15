@@ -3,11 +3,12 @@ version: 1
 extends:
   - https://raw.githubusercontent.com/projectpythia/pythia-config/main/pythia.yml
 project:
-  title: Project Pythia Cookbook Template
-  github: https://github.com/projectpythia/cookbook-template
+  title: COPS Cookbook
+  github: https://github.com/huangynj/cookbook_test
   authors:
-    - name: The Project Pythia Community
-  copyright: '2024'
+    - name: Yongjie Huang
+      url: https://huangynj.github.io
+  copyright: '2026'
   toc:
     - file: README.md
     - title: Preamble
@@ -15,7 +16,32 @@ project:
         - file: notebooks/how-to-cite.md
     - title: Introduction
       children:
-        - file: notebooks/notebook-template.ipynb
+        - file: notebooks/introduction.ipynb
   jupyter:
       binder:
-        repo: projectpythia/cookbook-template
+        repo: huangynj/cookbook_test
+site:
+  template: book-theme
+  options:
+    base_url: /cookbook_test
+    favicon: thumbnails/cops_logo.png
+    logo: thumbnails/cops_logo.png
+    logo_dark: thumbnails/cops_logo.png
+    logo_url: /
+    start_page: README.md
+    navbar_align: left
+    navbar_icon: github
+    navbar_buttons:
+      - href: /
+        title: Home
+        icon: home
+      - href: /notebooks/introduction
+        title: Introduction
+        icon: book
+    footer:
+      copyright: "2026, Yongjie Huang"
+  nav: []
+  actions:
+    - title: COPS GitHub
+      url: https://github.com/huangynj/COPS
+
