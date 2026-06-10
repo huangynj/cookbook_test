@@ -8,4 +8,4 @@ If you use this cookbook in your research, please cite it as follows:
 
 Please also cite the COPS software itself:
 
-> [Insert COPS Citation Here] (e.g., Huang et al., 202x)
+> Huang, Y. (2026). Cloud Optical-array probe Processing Software (COPS), Version 0.0.1. Source distribution.

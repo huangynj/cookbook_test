@@ -9,6 +9,7 @@ project:
     - name: Yongjie Huang
       url: https://huangynj.github.io
   copyright: '2026'
+  thebe: false
   toc:
     - file: README.md
     - title: Preamble
@@ -17,9 +18,6 @@ project:
     - title: Introduction
       children:
         - file: notebooks/introduction.ipynb
-  jupyter:
-    binder:
-      repo: huangynj/cookbook_test
 site:
   template: book-theme
   options:
@@ -42,6 +40,5 @@ site:
       copyright: "2026, Yongjie Huang"
   nav: []
   actions:
-    - title: COPS GitHub
-      url: https://github.com/huangynj/COPS
-
+    - title: Cookbook GitHub
+      url: https://github.com/huangynj/cookbook_test
