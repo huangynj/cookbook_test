@@ -5,3 +5,5 @@ dependencies:
   - jupyterlab
   - mystmd
   - jupyterlab-myst
+  - pip:
+      - cops
