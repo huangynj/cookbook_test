@@ -28,6 +28,7 @@ site:
     favicon: thumbnails/cops_logo.png
     logo: thumbnails/cops_logo.png
     logo_dark: thumbnails/cops_logo.png
+    logo_text: COPS Cookbook
     logo_url: /
     start_page: README.md
     navbar_align: left
@@ -45,4 +46,6 @@ site:
   actions:
     - title: COPS GitHub
       url: https://github.com/huangynj/COPS
-
+  parts:
+    footer: ""
+    primary_sidebar_footer: ""
