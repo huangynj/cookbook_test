@@ -20,9 +20,13 @@ concurrency:
 jobs:
   build:
     uses: ProjectPythia/cookbook-actions/.github/workflows/build-book.yaml@main
+    with:
+      artifact_name: book-zip
 
   deploy:
     needs: build
     uses: ProjectPythia/cookbook-actions/.github/workflows/deploy-book.yaml@main
+    with:
+      artifact_name: book-zip
 
 

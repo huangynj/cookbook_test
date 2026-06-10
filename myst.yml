@@ -18,8 +18,8 @@ project:
       children:
         - file: notebooks/introduction.ipynb
   jupyter:
-      binder:
-        repo: huangynj/cookbook_test
+    binder:
+      repo: huangynj/cookbook_test
 site:
   template: book-theme
   options:
