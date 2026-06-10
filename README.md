@@ -33,41 +33,23 @@ By the end of the cookbook, readers will be able to:
 
 ---
 
-## Structure
+## Current Structure
 
 This cookbook is organized into the following sections:
 
-### 1. Foundations
+### 1. Preamble
 
-This section introduces the core concepts, datasets, and Python tools used throughout the cookbook.  
-It is intended to build the necessary background for the example workflows.
+This section explains how to cite the cookbook and the COPS software.
 
-### 2. Example Workflows
+### 2. Introduction
 
-This section contains complete, end-to-end notebook examples demonstrating how to apply the concepts introduced in the foundations section to real problems.
+This section verifies the COPS installation and establishes the environment expected by future workflow notebooks.
 
 ---
 
 ## Running the Notebooks
 
-You can run the notebooks either **online using Binder** or **locally on your own machine**.
-
-### Running on Binder
-
-The simplest way to interact with the notebooks is through
-[Binder](https://binder.projectpythia.org/).
-
-1. Click the **Binder badge** at the top of this README
-2. Wait for the environment to launch
-3. Open a notebook and run cells using `Shift + Enter`
-
-Binder allows you to execute and modify the notebooks without installing anything locally.
-
----
-
-### Running on Your Own Machine
-
-To run the notebooks locally:
+Run the notebooks locally with a COPS source checkout:
 
 1. Clone the repository:
    ```bash
@@ -81,9 +63,24 @@ To run the notebooks locally:
    conda activate cookbook-dev
    ```
 
-3. Start the server:
+   If the environment already exists, update it instead:
+   ```bash
+   conda env update -f environment.yml --prune
+   conda activate cookbook-dev
+   ```
+
+3. Install COPS from source:
+   ```bash
+   python -m pip install -e ../COPS
+   ```
+
+   If the COPS checkout is somewhere else, replace `../COPS` with that path.
+
+4. Start the server:
    ```bash
    myst start
    ```
 
 This will start a local web server and open the cookbook in your browser.
+
+> **Note:** Do not use `pip install cops` for this cookbook. The `cops` package name on PyPI currently points to unrelated cloud-infrastructure software. Install the local COPS source checkout instead.

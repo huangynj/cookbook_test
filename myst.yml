@@ -9,6 +9,7 @@ project:
     - name: Yongjie Huang
       url: https://huangynj.github.io
   copyright: '2026'
+  thebe: false
   toc:
     - file: README.md
     - title: Preamble

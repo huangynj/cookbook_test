@@ -6,3 +6,6 @@ authors:
     website: https://huangynj.github.io
 title: "COPS Cookbook"
 abstract: "A cookbook providing practical, reproducible examples for using the Cloud Optical-array probe Processing Software (COPS)."
+url: "https://huangynj.github.io/cookbook_test"
+repository-code: "https://github.com/huangynj/cookbook_test"
+license: Apache-2.0
